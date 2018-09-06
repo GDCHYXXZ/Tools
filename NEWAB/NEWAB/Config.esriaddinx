@@ -1,0 +1,39 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>属性刷</Name>
+  <AddInID>{19d17f8d-674c-4944-94aa-1c05be98ff52}</AddInID>
+  <Description>属性刷</Description>
+  <Version>1.0</Version>
+  <Image>Images\NEWAB.png</Image>
+  <Author>许伟杰</Author>
+  <Company>信息工程站</Company>
+  <Date>2018/8/24</Date>
+  <Targets>
+    <Target name="Desktop" version="10.2" />
+  </Targets>
+  <AddIn language="CLR4.0" library="NEWAB.dll" namespace="NEWAB">
+    <ArcMap>
+      <Commands>
+        <Tool id="信息工程站_NEWAB_Tool1" class="Tool1" message="属性刷" caption="属性刷" tip="启用属性刷" category="Add-In Controls" image="Images\Tool1.png" cursor="Images\Tool1.cur" />
+        <Tool id="信息工程站_NEWAB_BackUpActivator" class="NEWAB.BackUpTool.BackUpActivator" message="指定时间实现数据自动备份" caption="自动备份" tip="自动备份" category="Add-In Controls" image="Images\BackUpActivator.png" />
+      </Commands>
+      <DockableWindows>
+        <DockableWindow id="信息工程站_NEWAB_DockableAttrWindow1" class="DockableAttrWindow1+AddinImpl" caption="属性窗" image="Images\DockableAttrWindow1.png">
+          <InitialPlacement height="300" width="300" state="pinned" position="left" />
+        </DockableWindow>
+      </DockableWindows>
+      <Toolbars>
+        <Toolbar id="信息工程站_NEWAB_信息工程站" caption="信息工程站" showInitially="true">
+          <Items>
+            <Item refID="信息工程站_NEWAB_Tool1" />
+            <Tool refID="信息工程站_NEWAB_BackUpActivator" separator="true" />
+          </Items>
+        </Toolbar>
+      </Toolbars>
+      <Editor>
+        <Extensions>
+          <Extension id="信息工程站_NEWAB_PEditorClass" class="NEWAB.PEditor.PEditorClass" />
+        </Extensions>
+      </Editor>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>

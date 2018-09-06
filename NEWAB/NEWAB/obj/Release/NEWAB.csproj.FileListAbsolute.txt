@@ -1,0 +1,10 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\NEWAB\NEWAB\bin\Release\NEWAB.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\NEWAB\NEWAB\bin\Release\NEWAB.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\NEWAB\NEWAB\obj\Release\NEWAB.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\NEWAB\NEWAB\obj\Release\NEWAB.BackUpTool.LayerSelectPanel.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\NEWAB\NEWAB\obj\Release\NEWAB.DockableAttrWindow1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\NEWAB\NEWAB\obj\Release\NEWAB.Resource1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\NEWAB\NEWAB\obj\Release\NEWAB.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\NEWAB\NEWAB\obj\Release\NEWAB.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\NEWAB\NEWAB\obj\Release\NEWAB.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\NEWAB\NEWAB\bin\Release\NEWAB.esriAddIn
